@@ -13,6 +13,7 @@
     "@types/react-dom": "^17.0.0",
     "axios": "^0.21.1",
     "class-validator": "^0.13.1",
+    "json-server": "^0.16.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "db": "./node_modules/.bin/json-server --watch ./src/database/db.json --port 4000"
   },
   "eslintConfig": {
     "extends": [
