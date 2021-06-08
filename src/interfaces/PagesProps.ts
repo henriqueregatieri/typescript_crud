@@ -1,5 +1,14 @@
 import { IChangeElement } from '../hooks/useForm';
 
+export interface ListItemProps<T> {
+  record: T;
+}
+
+export interface FormFieldsProps<T> {
+  formState: T;
+  handleChange: (event: React.ChangeEvent<IChangeElement>) => void;
+}
+
 export interface RecordIndexProps<T> {
   ListItem: React.FC<ListItemProps<T>>;
   apiPath: string;
@@ -11,10 +20,9 @@ export interface RecordIndexProps<T> {
 export interface RecordListProps<T> {
   ListItem: React.FC<ListItemProps<T>>;
   records: T[];
-}
-
-export interface ListItemProps<T> {
-  record: T;
+  emptyRecord: T;
+  activeRecord: T;
+  setActiveRecord: Function;
 }
 
 export interface RecordMutationsProps<T> {
@@ -27,12 +35,12 @@ export interface RecordNewProps<T> {
   activeRecord: T;
 }
 
-export interface RecordFormProps<T> {
+export interface RecordEditProps<T> {
   FormFields: React.FC<FormFieldsProps<T>>;
   activeRecord: T;
 }
 
-export interface FormFieldsProps<T> {
-  formState: T;
-  handleChange: (event: React.ChangeEvent<IChangeElement>) => void;
+export interface RecordFormProps<T> {
+  FormFields: React.FC<FormFieldsProps<T>>;
+  activeRecord: T;
 }
