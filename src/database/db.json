@@ -11,6 +11,12 @@
       "name": "Urubatuba F. C.",
       "city": "Arapipoca",
       "description": "Este é um time ipsum"
+    },
+    {
+      "name": "",
+      "city": "",
+      "description": "",
+      "id": 3
     }
   ],
   "matches": [
