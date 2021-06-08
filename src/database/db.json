@@ -1,9 +1,26 @@
 {
   "teams": [
-    { "id": 1, "name": "Clube Capipariano", "city": "São Paulo", "description": "Este é um time lorem" },
-    { "id": 2, "name": "Urubatuba F. C.", "city": "Arapipoca", "description": "Este é um time ipsum" }
+    {
+      "id": 1,
+      "name": "Clube Capipariano",
+      "city": "São Pablo",
+      "description": "Este é um time lorem"
+    },
+    {
+      "id": 2,
+      "name": "Urubatuba F. C.",
+      "city": "Arapipoca",
+      "description": "Este é um time ipsum"
+    }
   ],
   "matches": [
-    { "id": 1, "team1id": 1, "team1score": 2, "team2id": 2, "team2score": 0, "stadium": "Arena Otaviano Luis" }
+    {
+      "id": 1,
+      "team1id": 1,
+      "team1score": 2,
+      "team2id": 2,
+      "team2score": 0,
+      "stadium": "Arena Otaviano Luis"
+    }
   ]
 }
