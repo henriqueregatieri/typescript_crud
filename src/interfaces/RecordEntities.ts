@@ -1,12 +1,12 @@
 export interface Record {
-  id: number;
+  id?: number; // optional so it accepts a form for a new record without id
 }
 
 export interface Team extends Record {
   name: string;
   city?: string | null;
   description?: string | null;
-  matches: Match[];
+  matches?: Match[];
 }
 
 export interface Match extends Record {
