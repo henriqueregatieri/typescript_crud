@@ -1,5 +1,6 @@
 import { IChangeElement } from '../hooks/useForm';
 import { Action } from '../hooks/useMutation';
+import { AxiosError } from 'axios';
 
 export interface ListItemProps<T> {
   record: T;
@@ -24,6 +25,8 @@ export interface RecordListProps<T> {
   emptyRecord: T;
   activeRecord: T;
   setActiveRecord: Function;
+  loading: boolean;
+  error?: AxiosError;
 }
 
 export interface RecordMutationsProps<T> {
