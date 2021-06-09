@@ -2,8 +2,8 @@
   "teams": [
     {
       "id": 1,
-      "name": "Clube Capipariano",
-      "city": "São Pablo2",
+      "name": "Capipariano Club",
+      "city": "San Pablo",
       "description": "Este é um time lorem"
     },
     {
@@ -13,20 +13,42 @@
       "description": "Este é um time ipsum"
     },
     {
-      "name": "",
-      "city": "",
+      "name": "Washington Club DC",
+      "city": "New York",
       "description": "",
       "id": 3
+    },
+    {
+      "name": "Coffee Addicted United",
+      "city": "Coffee Shop City",
+      "description": "",
+      "id": 4
     }
   ],
   "matches": [
     {
       "id": 1,
-      "team1id": 1,
-      "team1score": 2,
-      "team2id": 2,
-      "team2score": 0,
+      "team1": 1,
+      "team1score": "5",
+      "team2": 2,
+      "team2score": "0",
       "stadium": "Arena Otaviano Luis"
+    },
+    {
+      "team1score": "1",
+      "team2score": "3",
+      "team1": 1,
+      "team2": 3,
+      "id": 2,
+      "stadium": "Estádio da Xuxa"
+    },
+    {
+      "team1score": "4",
+      "team2score": "2",
+      "stadium": "",
+      "id": 3,
+      "team1": 2,
+      "team2": "3"
     }
   ]
 }

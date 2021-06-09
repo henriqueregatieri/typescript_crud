@@ -8,9 +8,6 @@ export const TeamListItem: React.FC<IProps> = ({ record }) => {
     <div>
       <div className="name">{record.name}</div>
       <div className="city">From: {record.city || 'Unknown City'}</div>
-      <div className="description">
-        Whose description is: {record.description || 'Undefined'}
-      </div>
     </div>
   );
 };

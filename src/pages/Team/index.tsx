@@ -15,7 +15,7 @@ export const TeamIndex: React.FC = () => {
   return (
     <RecordIndex<Team>
       ListItem={TeamListItem}
-      apiPath="Teams"
+      apiPath="teams"
       apiOptions={apiOptions}
       FormFields={TeamFormFields}
       emptyRecord={emptyRecord}

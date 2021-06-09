@@ -1,6 +1,7 @@
 import { Header } from './components/Header';
 import { Page, usePage } from './contexts/Page';
 import { TeamIndex } from './pages/Team';
+import { MatchIndex } from './pages/Match';
 
 const App: React.FC = () => {
   const { page } = usePage();
@@ -8,14 +9,9 @@ const App: React.FC = () => {
   const renderSwitch = () => {
     switch (page) {
       case Page.Teams:
-        return (
-          <div>
-            <div>Teams</div>
-            <TeamIndex />
-          </div>
-        );
+        return <TeamIndex />;
       case Page.Matches:
-        return <div>Matches</div>;
+        return <MatchIndex />;
       default:
         return '';
     }

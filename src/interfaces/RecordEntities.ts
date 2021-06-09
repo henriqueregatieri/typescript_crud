@@ -1,5 +1,5 @@
 export interface Record {
-  id?: number; // optional so it accepts a form for a new record without id
+  id?: number;
 }
 
 export interface Team extends Record {
@@ -10,9 +10,9 @@ export interface Team extends Record {
 }
 
 export interface Match extends Record {
-  team1id: Team;
+  team1?: number | null; // using json server, relationship won't work so it returns a string instead of a "Team" object
   team1score: number;
-  team2id: Team;
+  team2?: number | null; // using json server, relationship won't work so it returns a string instead of a "Team" object
   team2score: number;
-  stadium?: string | null;
+  stadium: string;
 }
