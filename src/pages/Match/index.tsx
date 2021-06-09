@@ -4,7 +4,7 @@ import { MatchListItem } from './ListItem';
 import { MatchFormFields } from './FormFields';
 
 export const MatchIndex: React.FC = () => {
-  const apiOptions = {}; //{ relations: ['team'] }; // doesn't work on json-server
+  const apiOptions = {}; //{ relations: ['team'] }; // doesn't work on json-server by default
 
   const emptyRecord = {
     team1score: 0,
