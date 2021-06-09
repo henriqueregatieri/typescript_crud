@@ -26,6 +26,8 @@ Run project:
 yarn start
 ```
 
+App shall be available at `http://localhost:3000`.
+
 ## Step-by-Step Tutorial
 
 https://github.com/jp7internet/typescript-crud/wiki
