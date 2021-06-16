@@ -1,6 +1,6 @@
 # TypeScript CRUD (Frontend)
 
-A simple Typescript CRUD (Frontend) with React.
+A simple Typescript CRUD (Frontend) with React & JSON Server.
 
 Based on: https://github.com/jp7internet/typescript-crud
 
